@@ -1,0 +1,10288 @@
+[
+	{
+		"frame_type": "header",
+		"header_size": 12,
+		"proto_ver": [
+			1,
+			0
+		],
+		"profile_ver": [
+			1,
+			0
+		],
+		"body_size": 3124,
+		"crc": "0x0000",
+		"crc_matched": null,
+		"chunk": {
+			"index": 0,
+			"offset": 0,
+			"size": 12
+		}
+	},
+	{
+		"frame_type": "definition_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"global_mesg_num": 20,
+		"endian": "<",
+		"field_defs": [
+			{
+				"name": "timestamp",
+				"def_num": 253,
+				"type_name": "date_time",
+				"base_type_name": "uint32",
+				"size": 4
+			},
+			{
+				"name": "position_lat",
+				"def_num": 0,
+				"type_name": "sint32",
+				"base_type_name": "sint32",
+				"size": 4
+			},
+			{
+				"name": "position_long",
+				"def_num": 1,
+				"type_name": "sint32",
+				"base_type_name": "sint32",
+				"size": 4
+			},
+			{
+				"name": "distance",
+				"def_num": 5,
+				"type_name": "uint32",
+				"base_type_name": "uint32",
+				"size": 4
+			},
+			{
+				"name": "time_from_course",
+				"def_num": 11,
+				"type_name": "sint32",
+				"base_type_name": "sint32",
+				"size": 4
+			},
+			{
+				"name": "compressed_speed_distance",
+				"def_num": 8,
+				"type_name": "byte",
+				"base_type_name": "byte",
+				"size": 3
+			},
+			{
+				"name": "heart_rate",
+				"def_num": 3,
+				"type_name": "uint8",
+				"base_type_name": "uint8",
+				"size": 1
+			},
+			{
+				"name": "altitude",
+				"def_num": 2,
+				"type_name": "uint16",
+				"base_type_name": "uint16",
+				"size": 2
+			},
+			{
+				"name": "speed",
+				"def_num": 6,
+				"type_name": "uint16",
+				"base_type_name": "uint16",
+				"size": 2
+			},
+			{
+				"name": "power",
+				"def_num": 7,
+				"type_name": "uint16",
+				"base_type_name": "uint16",
+				"size": 2
+			},
+			{
+				"name": "grade",
+				"def_num": 9,
+				"type_name": "sint16",
+				"base_type_name": "sint16",
+				"size": 2
+			},
+			{
+				"name": "cadence",
+				"def_num": 4,
+				"type_name": "uint8",
+				"base_type_name": "uint8",
+				"size": 1
+			},
+			{
+				"name": "resistance",
+				"def_num": 10,
+				"type_name": "uint8",
+				"base_type_name": "uint8",
+				"size": 1
+			},
+			{
+				"name": "cycle_length",
+				"def_num": 12,
+				"type_name": "uint8",
+				"base_type_name": "uint8",
+				"size": 1
+			},
+			{
+				"name": "temperature",
+				"def_num": 13,
+				"type_name": "sint8",
+				"base_type_name": "sint8",
+				"size": 1
+			}
+		],
+		"dev_field_defs": [],
+		"chunk": {
+			"index": 6,
+			"offset": 140,
+			"size": 51
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:27+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157127
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64045587182045,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138876048
+			},
+			{
+				"name": "position_long",
+				"value": 166.99411869049072,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992317440
+			},
+			{
+				"name": "distance",
+				"value": 0.00644,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 644
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 85,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 85
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 34.232400000000005,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 9.509
+			},
+			{
+				"name": "speed",
+				"value": 34.232400000000005,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 9509
+			},
+			{
+				"name": "power",
+				"value": 87,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 87
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 66,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 66
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 8,
+			"offset": 205,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:28+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157128
+			},
+			{
+				"name": "position_lat",
+				"value": -11.640509516000748,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138876688
+			},
+			{
+				"name": "position_long",
+				"value": 166.99405431747437,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992316672
+			},
+			{
+				"name": "distance",
+				"value": 0.0155,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 1550
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 85,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 85
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 33.8076,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 9.391
+			},
+			{
+				"name": "speed",
+				"value": 33.8076,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 9391
+			},
+			{
+				"name": "power",
+				"value": 85,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 85
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 66,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 66
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 9,
+			"offset": 242,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:29+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157129
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64056584239006,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138877360
+			},
+			{
+				"name": "position_long",
+				"value": 166.993989944458,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992315904
+			},
+			{
+				"name": "distance",
+				"value": 0.024820000000000002,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 2482
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 85,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 85
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 33.39,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 9.275
+			},
+			{
+				"name": "speed",
+				"value": 33.39,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 9275
+			},
+			{
+				"name": "power",
+				"value": 76,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 76
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 66,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 66
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 10,
+			"offset": 279,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:30+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157130
+			},
+			{
+				"name": "position_lat",
+				"value": -11.640624850988388,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138878064
+			},
+			{
+				"name": "position_long",
+				"value": 166.9939363002777,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992315264
+			},
+			{
+				"name": "distance",
+				"value": 0.03404,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 3404
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 86,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 86
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 32.9292,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 9.147
+			},
+			{
+				"name": "speed",
+				"value": 32.9292,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 9147
+			},
+			{
+				"name": "power",
+				"value": 77,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 77
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 25,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 25
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 11,
+			"offset": 316,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:31+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157131
+			},
+			{
+				"name": "position_lat",
+				"value": -11.640685200691223,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138878784
+			},
+			{
+				"name": "position_long",
+				"value": 166.9938826560974,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992314624
+			},
+			{
+				"name": "distance",
+				"value": 0.04313,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 4313
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 86,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 86
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 32.5296,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 9.036
+			},
+			{
+				"name": "speed",
+				"value": 32.5296,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 9036
+			},
+			{
+				"name": "power",
+				"value": 76,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 76
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 35,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 35
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 12,
+			"offset": 353,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:32+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157132
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64074957370758,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138879552
+			},
+			{
+				"name": "position_long",
+				"value": 166.99382901191711,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992313984
+			},
+			{
+				"name": "distance",
+				"value": 0.0521,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 5210
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 86,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 86
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 32.022,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.895
+			},
+			{
+				"name": "speed",
+				"value": 32.022,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8895
+			},
+			{
+				"name": "power",
+				"value": 44,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 44
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 41,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 41
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 13,
+			"offset": 390,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:33+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157133
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64081797003746,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138880368
+			},
+			{
+				"name": "position_long",
+				"value": 166.99379682540894,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992313600
+			},
+			{
+				"name": "distance",
+				"value": 0.06093,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 6093
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 87,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 87
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 31.626,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.785
+			},
+			{
+				"name": "speed",
+				"value": 31.626,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8785
+			},
+			{
+				"name": "power",
+				"value": 123,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 123
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 45,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 45
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 14,
+			"offset": 427,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:34+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157134
+			},
+			{
+				"name": "position_lat",
+				"value": -11.640887707471848,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138881200
+			},
+			{
+				"name": "position_long",
+				"value": 166.99374318122864,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992312960
+			},
+			{
+				"name": "distance",
+				"value": 0.06971,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 6971
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 87,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 87
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 31.7304,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.814
+			},
+			{
+				"name": "speed",
+				"value": 31.7304,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8814
+			},
+			{
+				"name": "power",
+				"value": 229,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 229
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 51,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 51
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 15,
+			"offset": 464,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:35+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157135
+			},
+			{
+				"name": "position_lat",
+				"value": -11.640958786010742,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138882048
+			},
+			{
+				"name": "position_long",
+				"value": 166.99372172355652,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992312704
+			},
+			{
+				"name": "distance",
+				"value": 0.07859000000000001,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 7859
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 87,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 87
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 32.1768,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.938
+			},
+			{
+				"name": "speed",
+				"value": 32.1768,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8938
+			},
+			{
+				"name": "power",
+				"value": 193,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 193
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 60,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 60
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 16,
+			"offset": 501,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:36+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157136
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64103388786316,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138882944
+			},
+			{
+				"name": "position_long",
+				"value": 166.99366807937622,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992312064
+			},
+			{
+				"name": "distance",
+				"value": 0.08755,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 8755
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 88,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 88
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 32.223600000000005,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.951
+			},
+			{
+				"name": "speed",
+				"value": 32.223600000000005,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8951
+			},
+			{
+				"name": "power",
+				"value": 138,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 138
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 65,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 65
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 17,
+			"offset": 538,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:37+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157137
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641107648611069,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138883824
+			},
+			{
+				"name": "position_long",
+				"value": 166.99363589286804,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992311680
+			},
+			{
+				"name": "distance",
+				"value": 0.0965,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 9650
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 90,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 90
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 32.22,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.95
+			},
+			{
+				"name": "speed",
+				"value": 32.22,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8950
+			},
+			{
+				"name": "power",
+				"value": 101,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 101
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 68,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 68
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 18,
+			"offset": 575,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:38+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157138
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641182750463486,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138884720
+			},
+			{
+				"name": "position_long",
+				"value": 166.99362516403198,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992311552
+			},
+			{
+				"name": "distance",
+				"value": 0.10543999999999999,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 10544
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 90,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 90
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 32.148,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.93
+			},
+			{
+				"name": "speed",
+				"value": 32.148,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8930
+			},
+			{
+				"name": "power",
+				"value": 109,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 109
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 70,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 70
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 19,
+			"offset": 612,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:39+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157139
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64125919342041,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138885632
+			},
+			{
+				"name": "position_long",
+				"value": 166.9935929775238,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992311168
+			},
+			{
+				"name": "distance",
+				"value": 0.11436,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 11436
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 92,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 92
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 32.025600000000004,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.896
+			},
+			{
+				"name": "speed",
+				"value": 32.025600000000004,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8896
+			},
+			{
+				"name": "power",
+				"value": 70,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 70
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 72,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 72
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 20,
+			"offset": 649,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:40+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157140
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641334295272827,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138886528
+			},
+			{
+				"name": "position_long",
+				"value": 166.99356079101562,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992310784
+			},
+			{
+				"name": "distance",
+				"value": 0.12322,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 12322
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 94,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 94
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 31.8132,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.837
+			},
+			{
+				"name": "speed",
+				"value": 31.8132,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8837
+			},
+			{
+				"name": "power",
+				"value": 63,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 63
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 72,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 72
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 21,
+			"offset": 686,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:41+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157141
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641408056020737,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138887408
+			},
+			{
+				"name": "position_long",
+				"value": 166.9935393333435,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992310528
+			},
+			{
+				"name": "distance",
+				"value": 0.13202,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 13202
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 94,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 94
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 31.539599999999997,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.761
+			},
+			{
+				"name": "speed",
+				"value": 31.539599999999997,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8761
+			},
+			{
+				"name": "power",
+				"value": 35,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 35
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 71,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 71
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 22,
+			"offset": 723,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:42+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157142
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641483157873154,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138888304
+			},
+			{
+				"name": "position_long",
+				"value": 166.99350714683533,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992310144
+			},
+			{
+				"name": "distance",
+				"value": 0.14073,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 14073
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 96,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 96
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 31.1976,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.666
+			},
+			{
+				"name": "speed",
+				"value": 31.1976,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8666
+			},
+			{
+				"name": "power",
+				"value": 31,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 31
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 73,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 73
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 23,
+			"offset": 760,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:43+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157143
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641555577516556,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138889168
+			},
+			{
+				"name": "position_long",
+				"value": 166.99347496032715,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992309760
+			},
+			{
+				"name": "distance",
+				"value": 0.14937999999999999,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 14938
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 97,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 97
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 31.0068,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.613
+			},
+			{
+				"name": "speed",
+				"value": 31.0068,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8613
+			},
+			{
+				"name": "power",
+				"value": 35,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 35
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 77,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 77
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 24,
+			"offset": 797,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:44+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157144
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641627997159958,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138890032
+			},
+			{
+				"name": "position_long",
+				"value": 166.99345350265503,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992309504
+			},
+			{
+				"name": "distance",
+				"value": 0.15796000000000002,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 15796
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 97,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 97
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 30.8304,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.564
+			},
+			{
+				"name": "speed",
+				"value": 30.8304,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8564
+			},
+			{
+				"name": "power",
+				"value": 38,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 38
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 78,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 78
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 25,
+			"offset": 834,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:45+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157145
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64170041680336,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138890896
+			},
+			{
+				"name": "position_long",
+				"value": 166.9934320449829,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992309248
+			},
+			{
+				"name": "distance",
+				"value": 0.16651,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 16651
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 97,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 97
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 30.743999999999996,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.54
+			},
+			{
+				"name": "speed",
+				"value": 30.743999999999996,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8540
+			},
+			{
+				"name": "power",
+				"value": 46,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 46
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 71,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 71
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 26,
+			"offset": 871,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:46+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157146
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641772836446762,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138891760
+			},
+			{
+				"name": "position_long",
+				"value": 166.99339985847473,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992308864
+			},
+			{
+				"name": "distance",
+				"value": 0.17503,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 17503
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 97,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 97
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 30.6288,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.508
+			},
+			{
+				"name": "speed",
+				"value": 30.6288,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8508
+			},
+			{
+				"name": "power",
+				"value": 49,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 49
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 69,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 69
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 27,
+			"offset": 908,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:47+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157147
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641841232776642,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138892576
+			},
+			{
+				"name": "position_long",
+				"value": 166.99336767196655,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992308480
+			},
+			{
+				"name": "distance",
+				"value": 0.18341,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 18341
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 98,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 98
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 30.4812,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.467
+			},
+			{
+				"name": "speed",
+				"value": 30.4812,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8467
+			},
+			{
+				"name": "power",
+				"value": 56,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 56
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 65,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 65
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 28,
+			"offset": 945,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:48+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157148
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641909629106522,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138893392
+			},
+			{
+				"name": "position_long",
+				"value": 166.99332475662231,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992307968
+			},
+			{
+				"name": "distance",
+				"value": 0.19196000000000002,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 19196
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 98,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 98
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 30.258,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.405
+			},
+			{
+				"name": "speed",
+				"value": 30.258,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8405
+			},
+			{
+				"name": "power",
+				"value": 49,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 49
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 65,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 65
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 29,
+			"offset": 982,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:49+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157149
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641975343227386,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138894176
+			},
+			{
+				"name": "position_long",
+				"value": 166.99329257011414,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992307584
+			},
+			{
+				"name": "distance",
+				"value": 0.20032,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 20032
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 98,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 98
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 29.9592,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.322
+			},
+			{
+				"name": "speed",
+				"value": 29.9592,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8322
+			},
+			{
+				"name": "power",
+				"value": 38,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 38
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 25,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 25
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 30,
+			"offset": 1019,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:50+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157150
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642034351825714,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138894880
+			},
+			{
+				"name": "position_long",
+				"value": 166.9932496547699,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992307072
+			},
+			{
+				"name": "distance",
+				"value": 0.2086,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 20860
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 98,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 98
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 29.577599999999997,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.216
+			},
+			{
+				"name": "speed",
+				"value": 29.577599999999997,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8216
+			},
+			{
+				"name": "power",
+				"value": 35,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 35
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 39,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 39
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 31,
+			"offset": 1056,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:51+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157151
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642086654901505,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138895504
+			},
+			{
+				"name": "position_long",
+				"value": 166.99318528175354,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992306304
+			},
+			{
+				"name": "distance",
+				"value": 0.21675,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 21675
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 98,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 98
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 29.178,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 8.105
+			},
+			{
+				"name": "speed",
+				"value": 29.178,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 8105
+			},
+			{
+				"name": "power",
+				"value": 36,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 36
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 43,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 43
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 32,
+			"offset": 1093,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:52+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157152
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64213091135025,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138896032
+			},
+			{
+				"name": "position_long",
+				"value": 166.9931423664093,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992305792
+			},
+			{
+				"name": "distance",
+				"value": 0.22481,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 22481
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 98,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 98
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 28.785600000000002,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.996
+			},
+			{
+				"name": "speed",
+				"value": 28.785600000000002,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7996
+			},
+			{
+				"name": "power",
+				"value": 43,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 43
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 45,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 45
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 33,
+			"offset": 1130,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:53+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157153
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642169803380966,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138896496
+			},
+			{
+				"name": "position_long",
+				"value": 166.99307799339294,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992305024
+			},
+			{
+				"name": "distance",
+				"value": 0.23274,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 23274
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 98,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 98
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 28.3968,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.888
+			},
+			{
+				"name": "speed",
+				"value": 28.3968,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7888
+			},
+			{
+				"name": "power",
+				"value": 45,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 45
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 42,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 42
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 34,
+			"offset": 1167,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:54+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157154
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642200648784637,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138896864
+			},
+			{
+				"name": "position_long",
+				"value": 166.99300289154053,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992304128
+			},
+			{
+				"name": "distance",
+				"value": 0.24057,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 24057
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 99,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 99
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 28.011599999999998,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.781
+			},
+			{
+				"name": "speed",
+				"value": 28.011599999999998,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7781
+			},
+			{
+				"name": "power",
+				"value": 45,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 45
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 42,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 42
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 35,
+			"offset": 1204,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:55+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157155
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642226129770279,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138897168
+			},
+			{
+				"name": "position_long",
+				"value": 166.99293851852417,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992303360
+			},
+			{
+				"name": "distance",
+				"value": 0.24833000000000002,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 24833
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 99,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 99
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 27.6084,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.669
+			},
+			{
+				"name": "speed",
+				"value": 27.6084,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7669
+			},
+			{
+				"name": "power",
+				"value": 34,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 34
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 47,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 47
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 36,
+			"offset": 1241,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:56+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157156
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642243564128876,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138897376
+			},
+			{
+				"name": "position_long",
+				"value": 166.9928741455078,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992302592
+			},
+			{
+				"name": "distance",
+				"value": 0.2559,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 25590
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 100,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 100
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 27.2016,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.556
+			},
+			{
+				"name": "speed",
+				"value": 27.2016,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7556
+			},
+			{
+				"name": "power",
+				"value": 35,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 35
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 48,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 48
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 37,
+			"offset": 1278,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:57+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157157
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64225697517395,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138897536
+			},
+			{
+				"name": "position_long",
+				"value": 166.9927990436554,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992301696
+			},
+			{
+				"name": "distance",
+				"value": 0.26341000000000003,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 26341
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 100,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 100
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 26.8236,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.451
+			},
+			{
+				"name": "speed",
+				"value": 26.8236,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7451
+			},
+			{
+				"name": "power",
+				"value": 38,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 38
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 47,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 47
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 38,
+			"offset": 1315,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:58+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157158
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642266362905502,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138897648
+			},
+			{
+				"name": "position_long",
+				"value": 166.9927453994751,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992301056
+			},
+			{
+				"name": "distance",
+				"value": 0.27082,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 27082
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 100,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 100
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 26.4708,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.353
+			},
+			{
+				"name": "speed",
+				"value": 26.4708,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7353
+			},
+			{
+				"name": "power",
+				"value": 41,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 41
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 53,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 53
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 39,
+			"offset": 1352,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:05:59+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157159
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642271727323532,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138897712
+			},
+			{
+				"name": "position_long",
+				"value": 166.99265956878662,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992300032
+			},
+			{
+				"name": "distance",
+				"value": 0.27811,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 27811
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 100,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 100
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 26.1252,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.257
+			},
+			{
+				"name": "speed",
+				"value": 26.1252,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7257
+			},
+			{
+				"name": "power",
+				"value": 38,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 38
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 59,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 59
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 40,
+			"offset": 1389,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:00+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157160
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64227306842804,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138897728
+			},
+			{
+				"name": "position_long",
+				"value": 166.99260592460632,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992299392
+			},
+			{
+				"name": "distance",
+				"value": 0.28533,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 28533
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 100,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 100
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 25.794,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.165
+			},
+			{
+				"name": "speed",
+				"value": 25.794,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7165
+			},
+			{
+				"name": "power",
+				"value": 40,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 40
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 63,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 63
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 41,
+			"offset": 1426,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:01+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157161
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64227306842804,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138897728
+			},
+			{
+				"name": "position_long",
+				"value": 166.99254155158997,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992298624
+			},
+			{
+				"name": "distance",
+				"value": 0.29245,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 29245
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 100,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 100
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 25.5636,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.101
+			},
+			{
+				"name": "speed",
+				"value": 25.5636,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7101
+			},
+			{
+				"name": "power",
+				"value": 120,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 120
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 67,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 67
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 42,
+			"offset": 1463,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:02+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157162
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642270386219025,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138897696
+			},
+			{
+				"name": "position_long",
+				"value": 166.9924771785736,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992297856
+			},
+			{
+				"name": "distance",
+				"value": 0.29961,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 29961
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 100,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 100
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 26.1504,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.264
+			},
+			{
+				"name": "speed",
+				"value": 26.1504,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7264
+			},
+			{
+				"name": "power",
+				"value": 234,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 234
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 71,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 71
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 43,
+			"offset": 1500,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:03+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157163
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642265021800995,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138897632
+			},
+			{
+				"name": "position_long",
+				"value": 166.9924020767212,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992296960
+			},
+			{
+				"name": "distance",
+				"value": 0.30694,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 30694
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 100,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 100
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 26.4744,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.354
+			},
+			{
+				"name": "speed",
+				"value": 26.4744,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7354
+			},
+			{
+				"name": "power",
+				"value": 146,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 146
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 69,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 69
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 44,
+			"offset": 1537,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:04+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157164
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642259657382965,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138897568
+			},
+			{
+				"name": "position_long",
+				"value": 166.9923484325409,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992296320
+			},
+			{
+				"name": "distance",
+				"value": 0.31432,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 31432
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 101,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 101
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 26.64,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.4
+			},
+			{
+				"name": "speed",
+				"value": 26.64,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7400
+			},
+			{
+				"name": "power",
+				"value": 126,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 126
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 80,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 80
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 45,
+			"offset": 1574,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:05+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157165
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64225161075592,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138897472
+			},
+			{
+				"name": "position_long",
+				"value": 166.99226260185242,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992295296
+			},
+			{
+				"name": "distance",
+				"value": 0.32173,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 32173
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 101,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 101
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 26.7012,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.417
+			},
+			{
+				"name": "speed",
+				"value": 26.7012,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7417
+			},
+			{
+				"name": "power",
+				"value": 104,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 104
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 82,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 82
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 46,
+			"offset": 1611,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:06+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157166
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642242223024368,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138897360
+			},
+			{
+				"name": "position_long",
+				"value": 166.99220895767212,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992294656
+			},
+			{
+				"name": "distance",
+				"value": 0.32913,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 32913
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 102,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 102
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 26.6112,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.392
+			},
+			{
+				"name": "speed",
+				"value": 26.6112,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7392
+			},
+			{
+				"name": "power",
+				"value": 73,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 73
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 82,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 82
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 47,
+			"offset": 1648,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:07+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157167
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642235517501831,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138897280
+			},
+			{
+				"name": "position_long",
+				"value": 166.99214458465576,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992293888
+			},
+			{
+				"name": "distance",
+				"value": 0.3365,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 33650
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 103,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 103
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 26.467200000000002,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.352
+			},
+			{
+				"name": "speed",
+				"value": 26.467200000000002,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7352
+			},
+			{
+				"name": "power",
+				"value": 70,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 70
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 82,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 82
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 48,
+			"offset": 1685,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:08+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157168
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642226129770279,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138897168
+			},
+			{
+				"name": "position_long",
+				"value": 166.99206948280334,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992292992
+			},
+			{
+				"name": "distance",
+				"value": 0.34386,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 34386
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 104,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 104
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 26.3016,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.306
+			},
+			{
+				"name": "speed",
+				"value": 26.3016,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7306
+			},
+			{
+				"name": "power",
+				"value": 24,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 24
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 83,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 83
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 49,
+			"offset": 1722,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:09+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157169
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64221540093422,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138897040
+			},
+			{
+				"name": "position_long",
+				"value": 166.992005109787,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992292224
+			},
+			{
+				"name": "distance",
+				"value": 0.35108,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 35108
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 105,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 105
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 25.8444,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.179
+			},
+			{
+				"name": "speed",
+				"value": 25.8444,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7179
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 50,
+			"offset": 1759,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:10+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157170
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642200648784637,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138896864
+			},
+			{
+				"name": "position_long",
+				"value": 166.9919514656067,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992291584
+			},
+			{
+				"name": "distance",
+				"value": 0.35819,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 35819
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 106,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 106
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 25.3512,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 7.042
+			},
+			{
+				"name": "speed",
+				"value": 25.3512,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 7042
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 51,
+			"offset": 1796,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:11+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157171
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64218321442604,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138896656
+			},
+			{
+				"name": "position_long",
+				"value": 166.99188709259033,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992290816
+			},
+			{
+				"name": "distance",
+				"value": 0.36516000000000004,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 36516
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 106,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 106
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 24.8436,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 6.901
+			},
+			{
+				"name": "speed",
+				"value": 24.8436,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 6901
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 52,
+			"offset": 1833,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:12+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157172
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642164438962936,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138896432
+			},
+			{
+				"name": "position_long",
+				"value": 166.99182271957397,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992290048
+			},
+			{
+				"name": "distance",
+				"value": 0.372,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 37200
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 106,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 106
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 24.3468,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 6.763
+			},
+			{
+				"name": "speed",
+				"value": 24.3468,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 6763
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 53,
+			"offset": 1870,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:13+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157173
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642144322395325,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138896192
+			},
+			{
+				"name": "position_long",
+				"value": 166.99176907539368,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992289408
+			},
+			{
+				"name": "distance",
+				"value": 0.37868999999999997,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 37869
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 106,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 106
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 23.868,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 6.63
+			},
+			{
+				"name": "speed",
+				"value": 23.868,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 6630
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 54,
+			"offset": 1907,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:14+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157174
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642122864723206,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138895936
+			},
+			{
+				"name": "position_long",
+				"value": 166.99170470237732,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992288640
+			},
+			{
+				"name": "distance",
+				"value": 0.38526,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 38526
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 106,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 106
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 23.400000000000002,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 6.5
+			},
+			{
+				"name": "speed",
+				"value": 23.400000000000002,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 6500
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 55,
+			"offset": 1944,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:15+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157175
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642101407051086,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138895680
+			},
+			{
+				"name": "position_long",
+				"value": 166.99166178703308,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992288128
+			},
+			{
+				"name": "distance",
+				"value": 0.3917,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 39170
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 106,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 106
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 22.968,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 6.38
+			},
+			{
+				"name": "speed",
+				"value": 22.968,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 6380
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 56,
+			"offset": 1981,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:16+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157176
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642079949378967,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138895424
+			},
+			{
+				"name": "position_long",
+				"value": 166.99159741401672,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992287360
+			},
+			{
+				"name": "distance",
+				"value": 0.39803,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 39803
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 106,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 106
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 22.590000000000003,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 6.275
+			},
+			{
+				"name": "speed",
+				"value": 22.590000000000003,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 6275
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 57,
+			"offset": 2018,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:17+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157177
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64205715060234,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138895152
+			},
+			{
+				"name": "position_long",
+				"value": 166.99155449867249,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992286848
+			},
+			{
+				"name": "distance",
+				"value": 0.40425,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 40425
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 105,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 105
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 22.194,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 6.165
+			},
+			{
+				"name": "speed",
+				"value": 22.194,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 6165
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 58,
+			"offset": 2055,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:18+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157178
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642034351825714,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138894880
+			},
+			{
+				"name": "position_long",
+				"value": 166.99149012565613,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992286080
+			},
+			{
+				"name": "distance",
+				"value": 0.41037,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 41037
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 103,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 103
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 21.78,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 6.05
+			},
+			{
+				"name": "speed",
+				"value": 21.78,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 6050
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 59,
+			"offset": 2092,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:19+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157179
+			},
+			{
+				"name": "position_lat",
+				"value": -11.642011553049088,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138894608
+			},
+			{
+				"name": "position_long",
+				"value": 166.9914472103119,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992285568
+			},
+			{
+				"name": "distance",
+				"value": 0.41633,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 41633
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 102,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 102
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 21.3768,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 5.938
+			},
+			{
+				"name": "speed",
+				"value": 21.3768,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 5938
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 60,
+			"offset": 2129,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:20+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157180
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641987413167953,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138894320
+			},
+			{
+				"name": "position_long",
+				"value": 166.9913935661316,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992284928
+			},
+			{
+				"name": "distance",
+				"value": 0.42223,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 42223
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 102,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 102
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 20.9844,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 5.829
+			},
+			{
+				"name": "speed",
+				"value": 20.9844,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 5829
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 61,
+			"offset": 2166,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:21+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157181
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641964614391327,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138894048
+			},
+			{
+				"name": "position_long",
+				"value": 166.99135065078735,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992284416
+			},
+			{
+				"name": "distance",
+				"value": 0.42795,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 42795
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 102,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 102
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 20.6064,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 5.724
+			},
+			{
+				"name": "speed",
+				"value": 20.6064,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 5724
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 62,
+			"offset": 2203,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:22+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157182
+			},
+			{
+				"name": "position_lat",
+				"value": -11.6419418156147,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138893776
+			},
+			{
+				"name": "position_long",
+				"value": 166.99130773544312,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992283904
+			},
+			{
+				"name": "distance",
+				"value": 0.43361,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 43361
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 102,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 102
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 20.2356,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 5.621
+			},
+			{
+				"name": "speed",
+				"value": 20.2356,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 5621
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 63,
+			"offset": 2240,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:23+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157183
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641917675733566,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138893488
+			},
+			{
+				"name": "position_long",
+				"value": 166.99126482009888,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992283392
+			},
+			{
+				"name": "distance",
+				"value": 0.43926,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 43926
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 102,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 102
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 19.8684,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 5.519
+			},
+			{
+				"name": "speed",
+				"value": 19.8684,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 5519
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 64,
+			"offset": 2277,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:24+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157184
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641896218061447,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138893232
+			},
+			{
+				"name": "position_long",
+				"value": 166.99121117591858,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992282752
+			},
+			{
+				"name": "distance",
+				"value": 0.44451999999999997,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 44452
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 102,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 102
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 17.773200000000003,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 4.937
+			},
+			{
+				"name": "speed",
+				"value": 17.773200000000003,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 4937
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 65,
+			"offset": 2314,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:25+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157185
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64187878370285,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138893024
+			},
+			{
+				"name": "position_long",
+				"value": 166.99118971824646,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992282496
+			},
+			{
+				"name": "distance",
+				"value": 0.44911,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 44911
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 102,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 102
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 15.3432,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 4.262
+			},
+			{
+				"name": "speed",
+				"value": 15.3432,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 4262
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 66,
+			"offset": 2351,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:26+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157186
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641862690448761,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138892832
+			},
+			{
+				"name": "position_long",
+				"value": 166.99115753173828,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992282112
+			},
+			{
+				"name": "distance",
+				"value": 0.45302,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 45302
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 103,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 103
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 12.9384,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 3.594
+			},
+			{
+				"name": "speed",
+				"value": 12.9384,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 3594
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 67,
+			"offset": 2388,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:27+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157187
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641849279403687,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138892672
+			},
+			{
+				"name": "position_long",
+				"value": 166.9911253452301,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992281728
+			},
+			{
+				"name": "distance",
+				"value": 0.45627999999999996,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 45628
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 103,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 103
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 10.5588,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 2.933
+			},
+			{
+				"name": "speed",
+				"value": 10.5588,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 2933
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 68,
+			"offset": 2425,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:28+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157188
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641838550567627,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138892544
+			},
+			{
+				"name": "position_long",
+				"value": 166.99109315872192,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992281344
+			},
+			{
+				"name": "distance",
+				"value": 0.45888,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 45888
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 103,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 103
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 8.208,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 2.28
+			},
+			{
+				"name": "speed",
+				"value": 8.208,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 2280
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 69,
+			"offset": 2462,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:29+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157189
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641829162836075,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138892432
+			},
+			{
+				"name": "position_long",
+				"value": 166.99108242988586,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992281216
+			},
+			{
+				"name": "distance",
+				"value": 0.46082999999999996,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 46083
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 103,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 103
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 5.886,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 1.635
+			},
+			{
+				"name": "speed",
+				"value": 5.886,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 1635
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 70,
+			"offset": 2499,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:30+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157190
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641823798418045,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138892368
+			},
+			{
+				"name": "position_long",
+				"value": 166.99108242988586,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992281216
+			},
+			{
+				"name": "distance",
+				"value": 0.46214,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 46214
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 103,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 103
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 3.5712,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 0.992
+			},
+			{
+				"name": "speed",
+				"value": 3.5712,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 992
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 71,
+			"offset": 2536,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:31+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157191
+			},
+			{
+				"name": "position_lat",
+				"value": -11.64182111620903,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138892336
+			},
+			{
+				"name": "position_long",
+				"value": 166.99106097221375,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992280960
+			},
+			{
+				"name": "distance",
+				"value": 0.46281,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 46281
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 103,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 103
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 1.3068,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 0.363
+			},
+			{
+				"name": "speed",
+				"value": 1.3068,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 363
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 72,
+			"offset": 2573,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:32+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157192
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641819775104523,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138892320
+			},
+			{
+				"name": "position_long",
+				"value": 166.99106097221375,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992280960
+			},
+			{
+				"name": "distance",
+				"value": 0.46291000000000004,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 46291
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 103,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 103
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 0.0,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 0.0
+			},
+			{
+				"name": "speed",
+				"value": 0.0,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 0
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 73,
+			"offset": 2610,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:33+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157193
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641819775104523,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138892320
+			},
+			{
+				"name": "position_long",
+				"value": 166.99106097221375,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992280960
+			},
+			{
+				"name": "distance",
+				"value": 0.46291000000000004,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 46291
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 103,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 103
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 0.0,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 0.0
+			},
+			{
+				"name": "speed",
+				"value": 0.0,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 0
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 74,
+			"offset": 2647,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "data_message",
+		"name": "record",
+		"header": {
+			"local_mesg_num": 3,
+			"time_offset": null,
+			"is_developer_data": false
+		},
+		"fields": [
+			{
+				"name": "timestamp",
+				"value": "2024-02-29T16:06:34+00:00",
+				"units": "",
+				"def_num": 253,
+				"raw_value": 1078157194
+			},
+			{
+				"name": "position_lat",
+				"value": -11.641819775104523,
+				"units": "deg",
+				"def_num": 0,
+				"raw_value": -138892320
+			},
+			{
+				"name": "position_long",
+				"value": 166.99106097221375,
+				"units": "deg",
+				"def_num": 1,
+				"raw_value": 1992280960
+			},
+			{
+				"name": "distance",
+				"value": 0.46291000000000004,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": 46291
+			},
+			{
+				"name": "time_from_course",
+				"value": null,
+				"units": "s",
+				"def_num": 11,
+				"raw_value": null
+			},
+			{
+				"name": "speed",
+				"value": null,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": null
+			},
+			{
+				"name": "distance",
+				"value": null,
+				"units": "km",
+				"def_num": 5,
+				"raw_value": null
+			},
+			{
+				"name": "compressed_speed_distance",
+				"value": null,
+				"units": "",
+				"def_num": 8,
+				"raw_value": null
+			},
+			{
+				"name": "heart_rate",
+				"value": 103,
+				"units": "bpm",
+				"def_num": 3,
+				"raw_value": 103
+			},
+			{
+				"name": "enhanced_altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 78,
+				"raw_value": 13.200000000000045
+			},
+			{
+				"name": "altitude",
+				"value": 13.200000000000045,
+				"units": "m",
+				"def_num": 2,
+				"raw_value": 2566
+			},
+			{
+				"name": "enhanced_speed",
+				"value": 0.0,
+				"units": "km/h",
+				"def_num": 73,
+				"raw_value": 0.0
+			},
+			{
+				"name": "speed",
+				"value": 0.0,
+				"units": "km/h",
+				"def_num": 6,
+				"raw_value": 0
+			},
+			{
+				"name": "power",
+				"value": 0,
+				"units": "watts",
+				"def_num": 7,
+				"raw_value": 0
+			},
+			{
+				"name": "grade",
+				"value": null,
+				"units": "%",
+				"def_num": 9,
+				"raw_value": null
+			},
+			{
+				"name": "cadence",
+				"value": 0,
+				"units": "rpm",
+				"def_num": 4,
+				"raw_value": 0
+			},
+			{
+				"name": "resistance",
+				"value": null,
+				"units": "",
+				"def_num": 10,
+				"raw_value": null
+			},
+			{
+				"name": "cycle_length",
+				"value": null,
+				"units": "m",
+				"def_num": 12,
+				"raw_value": null
+			},
+			{
+				"name": "temperature",
+				"value": null,
+				"units": "C",
+				"def_num": 13,
+				"raw_value": null
+			}
+		],
+		"chunk": {
+			"index": 75,
+			"offset": 2684,
+			"size": 37
+		}
+	},
+	{
+		"frame_type": "crc",
+		"crc": "0x8384",
+		"matched": true,
+		"chunk": {
+			"index": 83,
+			"offset": 3136,
+			"size": 2
+		}
+	}
+]

@@ -1,5 +1,8 @@
-def obtain_interesting_chunks(my_json):
-    """ Returns only the chunks that are necessary for the dataset, avoiding unnecesary or definition frame_types """
+def obtain_interesting_chunks(my_json: str):
+    """ Returns only the chunks that are necessary for the dataset, avoiding unnecesary or definition frame_types 
+    
+    Parameters:
+        my_json (JSON): The JSON (opened) that the method is going to work with"""
 
     chunks_to_save = []
     for chunk in my_json:
@@ -11,12 +14,21 @@ def obtain_interesting_chunks(my_json):
     
     return chunks_to_save
 
-def convert_interesting_chunks_to_dataframe(interesting_chunks, training):
-    """ Returns necessary records in object format, for better future convertion purposes """
+def convert_interesting_chunks_to_dataframe(interesting_chunks: list, training: str):
+    """ Returns necessary records in object format, for better future convertion purposes 
+    
+    Parameters:
+        interesting_chunks (list): List of chunks that are interesting for obtaining data
+        training (str): Path to the name of the training file"""
 
     custom_records_object = []
     for record in interesting_chunks:
-        custom_record_object = {element['name']: element['value'] for element in record}
-        custom_record_object.update({"training": training})
-        custom_records_object.append(custom_record_object)
+        try:
+            custom_record_object = {element['name']: element['value'] for element in record}
+            custom_record_object.update({"training": training})
+            custom_records_object.append(custom_record_object) 
+        except Exception as e:
+            print("Exception: One chunk could not be included: ", e)
+            continue
+
     return custom_records_object

@@ -20,4 +20,4 @@ def obtain_dataframe_from_jsons():
 if __name__ == "__main__":
     dataframe = obtain_dataframe_from_jsons()
     if SAVE_DATAFRAME:
-        dataframe.to_csv('./dataframe.csv', index=False)
+        dataframe.to_csv('../dataframe.csv', index=False)

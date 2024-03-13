@@ -1,2 +1,6 @@
+*/*/__pycache__/*
 */__pycache__/*
 dataframe.csv
+*/*/fitdecoding.ipynb
+.coverage
+htmlcov/*

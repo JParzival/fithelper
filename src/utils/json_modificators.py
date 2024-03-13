@@ -20,6 +20,8 @@ def convert_interesting_chunks_to_dataframe(interesting_chunks: list, training: 
     Parameters:
         interesting_chunks (list): List of chunks that are interesting for obtaining data
         training (str): Path to the name of the training file"""
+    
+    # TODO Distance appears twice, one sometimes with value, the other one Null. Null overrides the first one. Control it.
 
     custom_records_object = []
     for record in interesting_chunks:

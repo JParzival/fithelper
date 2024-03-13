@@ -1,5 +1,5 @@
 import os
-from utils.constants import ACCEPTED_EXTENSIONS
+from .constants import ACCEPTED_EXTENSIONS
 
 def search_usable_fit_files(directory: str, extension: str):
     """ Returns a list of fit files (in .json or in .fit format), avoiding some of the unnecesary files 
